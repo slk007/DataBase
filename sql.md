@@ -23,12 +23,12 @@
 -----------------------------------------------------
 
 * #### Constructs of SQL
- * **Queries**: retrives data against some criteria
- * **Queries**: retrives data against some criteria
- * **Statement**: controls transactions, program flow, connections, sessions or diagnostics
- * **Clauses**: components of queries and statment
- * **Expressions**: combination of symbols and operators and a key part of the SQL statments
- * **Predicates**: specific conditons
+  * **Queries**: retrives data against some criteria
+  * **Queries**: retrives data against some criteria
+  * **Statement**: controls transactions, program flow, connections, sessions or diagnostics
+  * **Clauses**: components of queries and statment
+  * **Expressions**: combination of symbols and operators and a key part of the SQL statments
+  * **Predicates**: specific conditons
 
 
 
@@ -41,9 +41,9 @@
 
 
 * #### Transaction: 
- * a transaction contains a number of sql statments. 
- * After a transacton begins, all the SQL statements are executed and at the end of the transaction, permanent changes are made in the associated tables.
+  * a transaction contains a number of sql statments. 
+  * After a transacton begins, all the SQL statements are executed and at the end of the transaction, permanent changes are made in the associated tables.
 
 * #### Procedures:
- * using a stored procedure, a method is created which contains source code for performing repetitive tasks.
+  * using a stored procedure, a method is created which contains source code for performing repetitive tasks.
 
