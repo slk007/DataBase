@@ -47,60 +47,86 @@ VALUES (value1, value2, ....)
 ```
 
 
-Update one or several columns in rows
+**Update one or several columns in rows:**
 ```sql
 UPDATE  table_name 
    SET  col_name_1=new_value_1, 
         col_name_2= new_value2
   WHERE
         col_name=some_value
+```
 
 
-Delete rows in a table
-    • DELETE FROM table_name 
+**Delete rows in a table:**
+```sql
+DELETE FROM table_name 
 WHERE 
-column_name=somevalue
+      column_name=somevalue
+```
+
+-------------------------------------------
+
+## Select
+
+**Select data from a table:**
+```sql
+SELECT column(s) 
+FROM table_name
+```
+
+**Select all data from a table:**
+```sql
+SELECT * 
+FROM table_name
+```
 
 
-
-           Select
-
-Select data from a table
-    • SELECT column(s) FROM table_name
-
-Select all data from a table
-    • SELECT * FROM table_name
-
-
-Select only distinct (different) data from a table
-    • SELECT DISTINCT col_name FROM table_name
+**Select only distinct (different) data from a table:**
+```sql
+SELECT DISTINCT col_name 
+FROM table_name
+```
 
 
 Select only certain data from a table
-    • SELECT col_name(s) FROM table_name
+```sql
+SELECT col_name(s) 
+FROM  table_name
 WHERE 
-col operator value AND column
-operator value OR column
-operator value AND (..OR..)
+      col operator value AND column
+      operator value OR column
+      operator value AND (..OR..)
+```
 
-IN operator (exact value needed to return)
-    • SELECT col names table_name 
-WHERE column_name
-IN (value1, value2...)
+**IN operator (exact value needed to return):**
+```sql
+SELECT col_names 
+ FROM table_name 
+ WHERE column_name
+   IN (value1, value2...)
+```
 
-Select data from a table with sort the rows
-    • SELECT column names FROM table_name
+**Select data from a table with sort the rows:**
+```sql
+SELECT column names FROM table_name
 ORDER BY row_1,
 row_2 DESC,
 row_3 ASC
+```
 
-Group By
-    • SELECT column_1, ..,
-SUM (group_column_name)
-FROM table_name GROUP BY
-group_column_name
+### Group By
+```sql
+SELECT column_1, ..,
+   SUM (group_column_name)
+   FROM table_name 
+   GROUP BY
+   group_column_name
+```
 
-Select data from table(S) and insert it into another
-    • SELECT column_name(s) 
-INTO new_table FROM source_table_name
-WHERE query
+### Select data from table(S) and insert it into another
+```sql
+SELECT column_name(s) 
+  INTO new_table 
+  FROM source_table_name
+  WHERE query
+```
