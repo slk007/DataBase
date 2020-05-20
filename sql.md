@@ -24,7 +24,6 @@
 
 * #### Constructs of SQL
   * **Queries**: retrives data against some criteria
-  * **Queries**: retrives data against some criteria
   * **Statement**: controls transactions, program flow, connections, sessions or diagnostics
   * **Clauses**: components of queries and statment
   * **Expressions**: combination of symbols and operators and a key part of the SQL statments
