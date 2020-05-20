@@ -4,7 +4,7 @@
   * All data are stored in as **rows** and **columns** like a html table view. 
   * It has commands like SELECT, UPDATE, INSERT, and DELETE
 
-* ## MySQL, PostgreSQL
+* ### MySQL, PostgreSQL
   * Both of these are types of **Relational database management systems**.
   * These are applications that govern the database, providing and regulating access to the data. 
   * Both MySQL and PostgreSQL are free, open source systems, use **SQL**. 
