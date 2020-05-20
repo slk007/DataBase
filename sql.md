@@ -20,26 +20,30 @@
   * The most popular NoSQL database is **MongoDB**.
 
 
-#### Constructs of SQL
+-----------------------------------------------------
 
-**Queries**: retrives data against some criteria
-**Statement**: controls transactions, program flow, connections, sessions or diagnostics
-**Clauses**: components of queries and statment
-**Expressions**: combination of symbols and operators and a key part of the SQL statments
-**Predicates**: specific conditons
-
-
-
-**DML: Data Manipulation Lang - ADD, UPDATE, DELETE
-DDL: Data Definition Lang - CREATE, ALTER, RENAME, DROP
-DCL: Data Control Lang**
+* #### Constructs of SQL
+ * **Queries**: retrives data against some criteria
+ * **Queries**: retrives data against some criteria
+ * **Statement**: controls transactions, program flow, connections, sessions or diagnostics
+ * **Clauses**: components of queries and statment
+ * **Expressions**: combination of symbols and operators and a key part of the SQL statments
+ * **Predicates**: specific conditons
 
 
 
-#### Transaction: 
-a transaction contains a number of sql statments. 
-After a transacton begins, all the SQL statements are executed and at the end of the transaction, permanent changes are made in the associated tables.
+**DML: Data Manipulation Lang - ADD, UPDATE, DELETE**
 
-#### Procedures:
-using a stored procedure, a method is created which contains source code for performing repetitive tasks.
+**DDL: Data Definition Lang - CREATE, ALTER, RENAME, DROP**
+
+**DCL: Data Control Lang**
+
+
+
+* #### Transaction: 
+ * a transaction contains a number of sql statments. 
+ * After a transacton begins, all the SQL statements are executed and at the end of the transaction, permanent changes are made in the associated tables.
+
+* #### Procedures:
+ * using a stored procedure, a method is created which contains source code for performing repetitive tasks.
 
