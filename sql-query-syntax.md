@@ -88,7 +88,7 @@ FROM table_name
 ```
 
 
-Select only certain data from a table
+**Select only certain data from a table:**
 ```sql
 SELECT col_name(s) 
 FROM  table_name
